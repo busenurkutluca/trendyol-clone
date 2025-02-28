@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+.menu{
+  display: flex;
+  background-color: #F5F5F5;
+  color: #333333;
+  justify-content: center;
+  gap: 30px;
+}
+
+.trend-logo{
+  width: 146px;
+  height: 100%;
+  margin-bottom: -3px;
+}
