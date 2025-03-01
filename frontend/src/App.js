@@ -1,6 +1,6 @@
 import logo from './logo.png';
 import './App.css';
-import Menu from './Menu';
+import Menu from './Header/Menu';
 import Top from './Header/Header-Top';
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
       <header className="trend-header">
         <img src={logo} className="trend-logo" alt="logo" />
         
-        
+        <Top></Top>
       <Menu></Menu>
-      <Top></Top>
+  
        
       </header>
     </div>
