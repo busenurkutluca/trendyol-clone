@@ -7,8 +7,11 @@ function App() {
   return (
     <div className="trend">
       <header className="trend-header">
-        <img src={logo} className="trend-logo" alt="logo" />
-        
+      <img src={logo} className="trend-logo" alt="logo" />
+
+
+      
+
         <Top></Top>
       <Menu></Menu>
   

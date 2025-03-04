@@ -1,13 +1,18 @@
 function Top() {
-    return (
-<div className="header-top">
-            <a href="/">İndirim Kuponlarım</a>
-            <a href="/">Trendyol'da Satış Yap </a>
-            <a href="/">Hakkımızda </a>
-            <a href="/">Yardım & Destek </a>
+  const links = [
+      { text: "İndirim Kuponlarım", url: "#" },
+      { text: "Trendyol'da Satış Yap", url: "#" },
+      { text: "Hakkımızda", url: "#" },
+      { text: "Yardım & Destek", url: "#" }
+  ];
 
-</div>
-    )
+  return (
+      <div className="header-top">
+          {links.map((link, index) => (
+              <a key={index} href={link.url}>{link.text}</a>
+          ))}
+      </div>
+  );
 }
 
 export default Top;
