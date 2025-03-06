@@ -1,7 +1,7 @@
 function Menu() {
     const categories = [
         "Kadın", "Erkek", "Anne & Çocuk", "Ev & Yaşam", "Süpermarket",
-        "Kozmetik", "Ayakkabı & Çanta", "Elektronik", "Çok Satanlar", "Flaş Ürünler"
+        "Kozmetik", "Ayakkabı & Çanta", "Elektronik", "Çok Satanlar"
     ];
 
     return (
