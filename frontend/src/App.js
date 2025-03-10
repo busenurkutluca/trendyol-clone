@@ -1,10 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Menu from './Header/Menu';
-import Top from './Header/Header-Top';
-import Logo from './Header/Logo';
-import Example from './Header/Categories-Menü';
-import CategoriesMenu from './Header/Categories-Menü';
+import Footer from './Footerss/footer';
+import Header from './Header/headar';
 
 function App() {
   return (
@@ -14,10 +11,8 @@ function App() {
 
 
       
-        <Logo></Logo> <CategoriesMenu></CategoriesMenu>
-        <Top></Top>
-       
-      <Menu></Menu>
+        <Header></Header>
+        <Footer></Footer>
       
   
        
