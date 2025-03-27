@@ -28,7 +28,7 @@ function CategoriesMenu() {
         </ul>
       )}
 
-      <style jsx>{`
+      <style >{`
         .category-menu-container {
           position: relative;
           display: inline-block;

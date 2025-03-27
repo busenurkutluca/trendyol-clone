@@ -1,4 +1,4 @@
 function HeadButton(){
-    return
+    return;
 }
 export default HeadButton;
